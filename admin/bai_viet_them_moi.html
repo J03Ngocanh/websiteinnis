@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keyword" content="Bất động sản">
+    <!-- Định hương cho GG hiển thị bằng keyword lên đầu trang -->
+    <meta name="Author" content="Bất động sản">
+    <!-- Đánh dấu tác giả -->
+    <meta name="copyright" content="Bất động sản">
+    <!-- Đánh dấu bản quyền -->
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+    <title>THÊM MỚI BÀI VIẾT</title>
+    <img> 
+</head>
+<body>
+    <p style ="text-align: right; font-weight: bold;"><a href = "/index.html">Trang chủ </a>| <a href="/gioi_thieu.html">Giới thiệu</a> | <a href="/tin_tuc.html">Tin tức </a> | <a href="/lien_he.html"> Liên hệ </a> | <a href = "/admin/quan_tri_bai_viet.html">Quản trị </a></p>
+    <p> 
+        <a href="/index.html" target="_blank">Học viện Ngân hàng </a> | Khoa CNTT&KTS | Viện Đào tạo Quốc tế
+    </p>
+    <h1 style="text-align: center ;font-weight: bold; text-transform: uppercase; color: rgb(188, 55, 55);"> Thêm mới bài viết </h1>
+    <form action="/baivietthemtt" method="post">
+        <p>
+            <input name="txtTieude" type="text" placeholder="Tiêu đề" style="width:100%">
+        </p>
+        <textarea name="txtMota" placeholder="Mô tả bài viết" style="width:100%" rows="5"></textarea>
+        <p>Ảnh minh họa: <input type="file" name="txtAnhminhhoa"></p>
+        <textarea name="txtNoidung" placeholder="Nội dung bài viết" style="width:100%" rows="5"></textarea>
+        <p style="text-align: right;">
+        <input type="submit" value="Thêm mới">
+        <input type="reset" value="Reset">
+        </p>
+    </form>
+</body>
+</html>
